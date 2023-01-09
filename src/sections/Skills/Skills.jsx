@@ -2,16 +2,19 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div
+    <section
+      id="skills"
       style={{
-        border: "1px solid #fff",
-        width: "50%",
+        // border: "1px solid #fff",
+        width: "82%",
         height: "300px",
         margin: "auto",
+        color: "#fff",
+        paddingTop: "200px",
       }}
     >
       Skills
-    </div>
+    </section>
   );
 };
 

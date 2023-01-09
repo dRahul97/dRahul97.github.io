@@ -2,20 +2,62 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
+    <section
+      id="about"
       style={{
-        border: "2px solid #fff",
-        width: "70%",
-        height: "1000px",
-        margin: "auto",
-        marginTop: "70px",
+        // border: "1px solid #fff",
+        width: "82%",
         color: "#fff",
-        backgroundColor: "#343334",
+        margin: "auto",
+        height: "500px",
+        paddingTop: "150px",
       }}
     >
-      <h2>About me Page</h2>
-      <h1>Hey There! I'm Rahul Dudka </h1>
-    </div>
+      <div>
+        <div
+          style={{
+            display: "flex",
+            width: "35%",
+            margin: "auto",
+          }}
+        >
+          <span
+            style={{
+              border: "1px solid orange",
+              margin: "auto",
+              width: "95px",
+              backgroundColor: "orange",
+            }}
+          ></span>
+          <h2 style={{ fontSize: "23px", textAlign: "center" }}>ABOUT ME</h2>
+          <span
+            style={{
+              border: "1px solid orange",
+              margin: "auto",
+              width: "95px",
+              backgroundColor: "orange",
+            }}
+          ></span>
+        </div>
+        <div style={{ width: "80%", margin: "auto" }}>
+          <h3 style={{ fontSize: "18px" }}>
+            Hello!, my name is Rahul, a Full stack web developer.
+          </h3>
+          <p style={{ fontSize: "18px" }}>
+            🔸Worked on different projects as leader and co-leader. 🔸
+            <br />
+            🔸 Keen to find a challenging position within an ambitious
+            company.🔸
+            <br />
+            🔸 Interested in learning and absorbing new tech in the growing
+            world.🔸 <br />
+            🔸Innovative, result-driven Web Developer with sound knowledge in
+            JavaScript and React in the Frontend. 🔸
+            <br />
+          </p>
+        </div>
+      </div>
+    </section>
   );
 };
 
