@@ -6,8 +6,8 @@ import Home from "./sections/Home/Home";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
+      <Navbar id="nav-menu" />
+      <Home id="home" />
     </div>
   );
 }

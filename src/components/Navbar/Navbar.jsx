@@ -16,9 +16,9 @@ const Navbar = () => {
       >
         <div id={style.navbarLeft}></div>
         <div id={style.navbarRight}>
-          <a href="index.html">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
+          <a href="#tsparticles">Home</a>
+          <a href=".nav-link.home">About</a>
+          <a href=".nav-link.about">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
           <button>

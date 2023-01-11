@@ -8,7 +8,7 @@ import styles from "../Home/Home.module.css";
 
 const Home = () => {
   return (
-    <section>
+    <section className="nav-link home">
       {/* Home */}
       <div
         style={{
@@ -77,10 +77,10 @@ const Home = () => {
 
       {/* About me */}
 
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <About id="about" />
+      <Skills id="skills" />
+      <Projects id="projects" />
+      <Contact id="contact" />
     </section>
   );
 };
