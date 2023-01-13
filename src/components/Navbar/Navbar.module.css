@@ -33,6 +33,9 @@
   cursor: pointer;
   color: #fff;
 }
+#navbarRight > a:hover {
+  border-bottom: 2px solid orange;
+}
 button {
   background-color: orange;
   font-family: "Open Sans", sans-serif;
@@ -51,14 +54,21 @@ button a {
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .navbar {
+    width: 25rem;
     /* background-color: red; */
-    width: 78rem;
     height: 60px;
-    margin-top: 30px;
+    margin-left: 10px;
+  }
+  #navbarLeft {
+    width: 0%;
   }
   #navbarRight {
     font-size: 14px;
-    width: 40%;
+    width: 90%;
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 13px;
   }
 }
 
@@ -66,20 +76,18 @@ button a {
 @media (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     /* background-color: blue; */
-    width: 82rem;
     height: 60px;
     margin: 20px 0 0 10px;
   }
+  #navbarLeft {
+    /* border: 1px solid orange; */
+    width: 0%;
+  }
   #navbarRight {
     /* border: 1px solid #fff; */
-    font-size: 14px;
+    font-size: 15px;
     width: 42%;
-    height: 60px;
-    font-weight: 500;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
+    margin-left: 140px;
   }
   #navbarRight > a {
     text-decoration: none;
@@ -95,12 +103,17 @@ button a {
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
   .navbar {
-    width: 80rem;
-    /* background-color: green; */
-    margin: 20px 0 0 50px;
+    width: 38rem;
+    background-color: green;
+    margin: 10px 0 0 50px;
+  }
+  #navbarLeft {
+    /* border: 1px solid orange; */
+    width: 1%;
+    height: 60px;
   }
   #navbarRight {
-    width: 42%;
+    width: 90%;
   }
   #navbarRight > a {
     text-decoration: none;
@@ -109,6 +122,6 @@ button a {
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {
-}
+} */

@@ -1,3 +1,73 @@
+.homeInfo {
+  /* border: 1px solid #fff; */
+  display: flex;
+  width: 82%;
+  color: #fff;
+  margin: auto;
+  height: 500px;
+  justify-content: space-around;
+  padding-top: 130px;
+}
+
+.homeLeft {
+  /* border: 1px solid orange; */
+  width: 59%;
+  text-align: left;
+}
+
+.homeLeft h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 80px;
+  font-family: Poppins;
+  margin-top: 0;
+}
+.homeLeft p {
+  font-size: 18px;
+}
+.homeLeft p span {
+  border-bottom: 2px solid orange;
+}
+.homeLeftDescp {
+  display: flex;
+  width: 37%;
+  text-align: left;
+}
+
+.homeLeftDescp p {
+  font-size: 20px;
+}
+.homeLeftDescp span {
+  /* border: 1px solid orange; */
+  margin: auto;
+  width: 95px;
+  background-color: orange;
+}
+
+.Social {
+  /* border: 1px solid orange; */
+  color: #fff;
+  font-size: 18px;
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.Social a {
+  color: #fff;
+}
+.Social svg {
+  width: 35px;
+  height: 35px;
+  fill: orange;
+}
+.Social svg:hover {
+  fill: #fff;
+}
+.profile {
+  width: 34%;
+}
 .profilePic {
   background: url(../../images/profile-pic.jpg);
   background-repeat: no-repeat;
@@ -21,4 +91,16 @@
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
 }
