@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section
-      className="nav-link about"
+      id="about"
       style={{
         // border: "1px solid #fff",
         width: "82%",

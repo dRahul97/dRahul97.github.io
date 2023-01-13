@@ -8,7 +8,7 @@ import styles from "../Home/Home.module.css";
 
 const Home = () => {
   return (
-    <section className="nav-link home">
+    <section id="home" className="nav-link">
       {/* Home */}
       <div
         style={{
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* About me */}
+      <div class="calendar">Loading the data just for you.</div>
 
       <About id="about" />
       <Skills id="skills" />
