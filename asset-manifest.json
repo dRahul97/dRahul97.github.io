@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c51fc7df.css",
+    "main.css": "/static/css/main.655b7702.css",
     "main.js": "/static/js/main.a9938461.js",
     "static/js/787.5dfe81e3.chunk.js": "/static/js/787.5dfe81e3.chunk.js",
     "static/media/Rahul-Dudka-Resume.pdf": "/static/media/Rahul-Dudka-Resume.b17f4c2748ed84916458.pdf",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.4c39fe8e8ff33ddf87fd.jpg",
     "index.html": "/index.html",
-    "main.c51fc7df.css.map": "/static/css/main.c51fc7df.css.map",
+    "main.655b7702.css.map": "/static/css/main.655b7702.css.map",
     "main.a9938461.js.map": "/static/js/main.a9938461.js.map",
     "787.5dfe81e3.chunk.js.map": "/static/js/787.5dfe81e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51fc7df.css",
+    "static/css/main.655b7702.css",
     "static/js/main.a9938461.js"
   ]
 }
