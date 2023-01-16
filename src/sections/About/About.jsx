@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./About.module.css";
 
 const About = () => {
   return (
@@ -14,30 +15,10 @@ const About = () => {
       }}
     >
       <div>
-        <div
-          style={{
-            display: "flex",
-            width: "35%",
-            margin: "auto",
-          }}
-        >
-          <span
-            style={{
-              border: "1px solid orange",
-              margin: "auto",
-              width: "95px",
-              backgroundColor: "orange",
-            }}
-          ></span>
-          <h2 style={{ fontSize: "23px", textAlign: "center" }}>ABOUT ME</h2>
-          <span
-            style={{
-              border: "1px solid orange",
-              margin: "auto",
-              width: "95px",
-              backgroundColor: "orange",
-            }}
-          ></span>
+        <div className={styles.headingContainer}>
+          <span className={styles.orangeDash}></span>
+          <h2 className={styles.heading}>ABOUT ME</h2>
+          <span className={styles.orangeDash}></span>
         </div>
         <div style={{ width: "80%", margin: "auto" }}>
           <h3 style={{ fontSize: "18px" }}>

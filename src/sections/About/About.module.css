@@ -1,3 +1,20 @@
+.headingContainer {
+  display: flex;
+  width: 35%;
+  margin: auto;
+}
+.heading {
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+}
+.orangeDash {
+  border: 1px solid orange;
+  margin: auto;
+  width: 95px;
+  background-color: orange;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
 }

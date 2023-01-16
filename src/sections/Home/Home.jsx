@@ -4,7 +4,7 @@ import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import GitStats from "../GitStats/GitStats";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
             <span></span>
           </div>
           <h1>
-            Rahul Dudka <br />
+            <span>Rahul Dudka</span> <br />
             &lsaquo; Full Stack Web Developer / &rsaquo;
           </h1>
           <p>
@@ -50,9 +50,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div class="calendar">Loading the data just for you.</div> */}
-
       <About id="about" />
+      <GitStats />
       <Skills id="skills" />
       <Projects id="projects" />
       <Contact id="contact" />

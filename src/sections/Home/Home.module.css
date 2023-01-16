@@ -62,6 +62,11 @@
   background-color: orange;
 }
 
+.calendar {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
 .Social {
   /* border: 1px solid orange; */
   color: #fff;
@@ -121,34 +126,42 @@
 @media (max-width: 480px) {
   .homeInfo {
     /* border: 2px solid yellow; */
-    width: 96%;
+    width: 88%;
     height: auto;
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 100px;
   }
   .homeLeft h1 {
+    /* border: 1px solid; */
+    width: 155%;
     font-size: 1.5rem;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 35px;
     font-family: Poppins;
     margin-top: 0;
   }
-
+  .homeLeft h1 > span {
+    margin-left: 3px;
+  }
   .homeLeft > p {
     /* border: 1px solid; */
-    font-size: 15px;
-    width: 35%;
-    height: 140px;
+    font-size: 16px;
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    width: 165%;
+  }
+
+  .homeLeftDescp {
+    display: flex;
+    width: 90%;
+    text-align: left;
   }
 
   .homeLeftDescp > p {
     /* border: 1px solid; */
-    font-size: 15px;
+    font-size: 17px;
   }
   .homeLeftDescp span {
     border: 1px solid orange;
@@ -157,9 +170,9 @@
     margin-left: 15px;
     background-color: orange;
   }
-
   .Social {
-    width: 11%;
+    /* border: 1px solid #fff; */
+    width: 45%;
   }
 
   .Social svg {
@@ -170,14 +183,105 @@
   .profilePic {
     width: 200px;
     height: 200px;
-    margin-left: 68px;
+    margin-left: 110px;
+    margin-top: 50px;
   }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .homeInfo {
+    /* border: 2px solid yellow; */
+  }
+  .homeLeft h1 {
+    /* border: 1px solid; */
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: Poppins;
+    margin-top: 0;
+  }
+  .homeLeft h1 > span {
+    margin-left: 3px;
+  }
+  .homeLeft > p {
+    /* border: 1px solid; */
+    font-size: 19px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .homeLeftDescp {
+    display: flex;
+    width: 90%;
+    text-align: left;
+  }
+
+  .homeLeftDescp > p {
+    /* border: 1px solid; */
+    font-size: 20px;
+  }
+  .homeLeftDescp span {
+    border: 1px solid orange;
+    margin: auto;
+    width: 70px;
+    margin-left: 15px;
+    background-color: orange;
+  }
+  .Social {
+    /* border: 1px solid #fff; */
+    margin-top: 20px;
+    width: 32%;
+  }
+
+  .Social svg {
+    width: 40px;
+    height: 35px;
+    fill: orange;
+  }
+  .profilePic {
+    width: 250px;
+    height: 250px;
+    margin-left: 60px;
+  }
 }
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .homeLeft h1 {
+    /* border: 1px solid; */
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 55px;
+    font-family: Poppins;
+    margin-top: 0;
+  }
+
+  .homeLeft h1 > span {
+    margin-left: 3px;
+  }
+  .homeLeft > p {
+    /* border: 1px solid; */
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .homeLeftDescp {
+    display: flex;
+    width: 45%;
+    text-align: left;
+  }
+  .homeLeftDescp > p {
+    /* border: 1px solid; */
+    font-size: 23px;
+  }
+  .Social {
+    /* border: 1px solid #fff; */
+    margin-top: 30px;
+    width: 26%;
+  }
+  .profilePic {
+    width: 290px;
+    height: 290px;
+  }
 }

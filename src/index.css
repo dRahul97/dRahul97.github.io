@@ -32,10 +32,10 @@ canvas {
 }
 #tsparticles {
   position: absolute;
-  width: 100rem;
+  width: 100%;
   height: 100%;
   background-color: #0f304d;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: 50% 50%; */
+  background-position: 50% 50%;
 }

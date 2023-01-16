@@ -1,0 +1,188 @@
+.gitStats {
+  /* border: 3px solid #fff; */
+}
+
+.headingContainer {
+  display: flex;
+  width: 35%;
+  margin: auto;
+}
+.heading {
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+}
+.orangeDash {
+  border: 1px solid orange;
+  margin: auto;
+  width: 95px;
+  background-color: orange;
+}
+
+.calendar {
+  border: 1px solid #fff;
+  width: 65%;
+  height: 200px;
+  margin: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.commits {
+  /* border: 1px solid yellow; */
+  width: 68%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .gitStats {
+    /* border: 3px solid #fff; */
+  }
+  .headingContainer {
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+  }
+  .heading {
+    font-size: 15px;
+  }
+  .orangeDash {
+    width: 50px;
+  }
+  .calendar {
+    /* border: 1px solid #fff; */
+    width: 85%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .commits {
+    /* border: 1px solid yellow; */
+    width: 75%;
+    gap: 15px;
+  }
+  .commit1 {
+    width: 100%;
+  }
+  .commit2 {
+    width: 100%;
+  }
+  .commit3 {
+    width: 100%;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .gitStats {
+    /* border: 3px solid #fff; */
+  }
+  .headingContainer {
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 48%;
+    margin: auto;
+    padding: 5px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .orangeDash {
+    width: 70px;
+  }
+  .calendar {
+    /* border: 1px solid #fff; */
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .commits {
+    /* border: 1px solid yellow; */
+    width: 88%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+  }
+  .commit1 {
+    width: 48%;
+  }
+  .commit2 {
+    width: 48%;
+  }
+  .commit3 {
+    width: 40%;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .gitStats {
+    /* border: 3px solid #fff; */
+  }
+  .headingContainer {
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 38%;
+    margin: auto;
+    padding: 5px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .orangeDash {
+    width: 75px;
+  }
+  .calendar {
+    /* border: 1px solid #fff; */
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .commits {
+    /* border: 1px solid yellow; */
+    width: 88%;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0px 5px;
+  }
+  .commit1 {
+    width: 48%;
+  }
+  .commit2 {
+    width: 48%;
+  }
+  .commit3 {
+    width: 40%;
+  }
+}
