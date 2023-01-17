@@ -1,0 +1,206 @@
+.main {
+  /* border: 1px solid #fff; */
+  padding-top: 70px;
+  position: relative;
+}
+.skillsContainer {
+  width: 82%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.headingContainer {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  padding: 30px 0;
+}
+.heading {
+  font-size: 23px;
+  text-align: center;
+  color: #fff;
+}
+.orangeDash {
+  border: 1px solid orange;
+  margin: auto;
+  width: 75px;
+  background-color: orange;
+}
+
+.skillsLeft {
+  /* border: 1px solid #fff; */
+  width: 95%;
+  height: 95%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+@supports (background: paint(houdini)) {
+  @property --opacity {
+    syntax: "<number>";
+    initial-value: 0.5;
+    inherits: false;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes opacityChange {
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+
+  .frontendBackend {
+    animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+  }
+}
+.subHeading {
+  font-size: 22px;
+  border-bottom: 2px solid orange;
+  width: 25%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.frontendBackend {
+  /* border: 1px solid #fff; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  border: 0.3rem solid transparent;
+  /* Paint an image in the border */
+  border-image: conic-gradient(
+      from var(--angle),
+      black 0deg 90deg,
+      #fbb300 90deg 180deg,
+      black 180deg 270deg,
+      #fbb300 270deg 360deg
+    )
+    1 stretch;
+  border-radius: 100px;
+}
+
+.skills {
+  /* border: 2px solid yellow; */
+  padding: 0;
+  margin: 0;
+}
+svg {
+  width: 100px;
+  height: 100px;
+  fill: orange;
+}
+.imgLogo {
+  width: 100px;
+  height: 100px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .headingContainer {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 30px 0 0 0;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .orangeDash {
+    width: 60px;
+  }
+  .skillsContainer {
+    width: 90%;
+  }
+  .frontendBackend {
+    gap: 10px;
+  }
+
+  svg {
+    width: 50px;
+    height: 50px;
+    fill: orange;
+  }
+  .imgLogo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headingContainer {
+    display: flex;
+    width: 28%;
+    margin: auto;
+    padding: 30px 0 0 0;
+  }
+  /* .heading {
+    font-size: 18px;
+  } */
+  .orangeDash {
+    width: 70px;
+  }
+
+  .frontendBackend {
+    padding: 20px;
+    gap: 10px;
+  }
+  .skillsContainer {
+    width: 90%;
+  }
+
+  svg {
+    width: 95px;
+    height: 95px;
+    fill: orange;
+  }
+  .imgLogo {
+    width: 95px;
+    height: 95px;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .headingContainer {
+    display: flex;
+    width: 25%;
+    margin: auto;
+    padding: 30px 0 0 0;
+  }
+  .frontendBackend {
+    padding: 20px;
+    gap: 10px;
+  }
+  svg {
+    width: 110px;
+    height: 110px;
+    fill: orange;
+  }
+  .imgLogo {
+    width: 110px;
+    height: 110px;
+  }
+}

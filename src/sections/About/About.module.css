@@ -1,3 +1,13 @@
+.aboutContainer {
+  /* border: 1px solid #fff; */
+  width: 82%;
+  color: #fff;
+  margin: auto;
+  height: 700px;
+  padding-top: 200px;
+  position: relative;
+  text-align: center;
+}
 .headingContainer {
   display: flex;
   width: 35%;
@@ -14,13 +24,57 @@
   width: 95px;
   background-color: orange;
 }
+.aboutme {
+  width: 80%;
+  margin: auto;
+  line-height: 30px;
+}
+.aboutme > h3 {
+  font-size: 18px;
+}
+.aboutme > p {
+  /* border: 1px solid #fff; */
+  font-size: 18px;
+}
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .aboutContainer {
+    padding-bottom: 100px;
+  }
+  .headingContainer {
+    display: flex;
+    width: 75%;
+    margin: auto;
+  }
+  .heading {
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+  }
+  .orangeDash {
+    border: 1px solid orange;
+    margin: auto;
+    width: 65px;
+    background-color: orange;
+  }
+  .aboutme {
+    width: 92%;
+    margin: auto;
+  }
+  .aboutme > p {
+    /* border: 1px solid #fff; */
+    font-size: 15px;
+  }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .headingContainer {
+    display: flex;
+    width: 45%;
+    margin: auto;
+  }
 }
 
 /* Media Query for Laptops and Desktops */

@@ -7,6 +7,7 @@
   height: 500px;
   justify-content: space-around;
   padding-top: 130px;
+  position: relative;
 }
 
 .homeLeft {
@@ -28,8 +29,10 @@
   opacity: 1;
   animation-name: react-reveal-233916221479562-1;
 }
-.homeLeft p {
+.homeLeft > p {
   font-size: 18px;
+  width: 85%;
+  word-spacing: 2px;
   animation-fill-mode: both;
   animation-duration: 1587ms;
   animation-delay: 0ms;
@@ -62,20 +65,15 @@
   background-color: orange;
 }
 
-.calendar {
-  border: 1px solid #fff;
-  background-color: #fff;
-}
-
 .Social {
   /* border: 1px solid orange; */
   color: #fff;
   font-size: 18px;
-  width: 18%;
+  width: 23%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   animation-fill-mode: both;
   animation-duration: 1260ms;
   animation-delay: 0ms;
@@ -87,8 +85,8 @@
   color: #fff;
 }
 .Social svg {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   fill: orange;
 }
 .Social svg:hover {
