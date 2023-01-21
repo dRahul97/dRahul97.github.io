@@ -58,7 +58,7 @@
   opacity: 1;
   animation-name: react-reveal-233916221479562-1;
 }
-.homeLeftDescp span {
+.homeLeftDescp > span {
   border: 1px solid orange;
   margin: auto;
   width: 95px;
@@ -121,10 +121,10 @@
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .homeInfo {
     /* border: 2px solid yellow; */
-    width: 88%;
+    width: 96%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -134,55 +134,56 @@
   .homeLeft h1 {
     /* border: 1px solid; */
     width: 155%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
     line-height: 35px;
     font-family: Poppins;
     margin-top: 0;
   }
   .homeLeft h1 > span {
-    margin-left: 3px;
+    margin-left: 5px;
   }
   .homeLeft > p {
     /* border: 1px solid; */
     font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 165%;
+    width: 160%;
+    margin-left: 8px;
   }
 
   .homeLeftDescp {
     display: flex;
-    width: 90%;
+    width: 99%;
     text-align: left;
   }
 
   .homeLeftDescp > p {
     /* border: 1px solid; */
     font-size: 17px;
+    margin-left: 8px;
   }
   .homeLeftDescp span {
     border: 1px solid orange;
     margin: auto;
-    width: 70px;
+    width: 60px;
     margin-left: 15px;
     background-color: orange;
   }
   .Social {
     /* border: 1px solid #fff; */
-    width: 45%;
+    width: 60%;
+    margin-left: 8px;
   }
 
-  .Social svg {
-    width: 30px;
-    height: 25px;
+  .Social > .icons {
+    width: 35px;
+    height: 30px;
     fill: orange;
   }
   .profilePic {
-    width: 200px;
-    height: 200px;
-    margin-left: 110px;
-    margin-top: 50px;
+    width: 190px;
+    height: 190px;
+    margin-left: 90px;
+    margin-top: 40px;
   }
 }
 
@@ -232,7 +233,7 @@
     width: 32%;
   }
 
-  .Social svg {
+  .Social > .icons {
     width: 40px;
     height: 35px;
     fill: orange;

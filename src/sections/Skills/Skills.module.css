@@ -3,7 +3,7 @@
   padding-top: 70px;
   position: relative;
 }
-.skillsContainer {
+.skillsContainer1 {
   width: 82%;
   height: 500px;
   display: flex;
@@ -15,25 +15,25 @@
   border-radius: 10px;
 }
 
-.headingContainer {
+.headingContainer1 {
   display: flex;
   width: 20%;
   margin: auto;
   padding: 30px 0;
 }
-.heading {
+.heading1 {
   font-size: 23px;
   text-align: center;
   color: #fff;
 }
-.orangeDash {
+.orangeDash1 {
   border: 1px solid orange;
   margin: auto;
   width: 75px;
   background-color: orange;
 }
 
-.skillsLeft {
+.skillsLeft1 {
   /* border: 1px solid #fff; */
   width: 95%;
   height: 95%;
@@ -66,11 +66,11 @@
     }
   }
 
-  .frontendBackend {
+  .frontendBackend1 {
     animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
   }
 }
-.subHeading {
+.subHeading1 {
   font-size: 22px;
   border-bottom: 2px solid orange;
   width: 25%;
@@ -78,7 +78,7 @@
   margin: auto;
   margin-bottom: 20px;
 }
-.frontendBackend {
+.frontendBackend1 {
   /* border: 1px solid #fff; */
   width: 100%;
   height: 90%;
@@ -101,48 +101,46 @@
   border-radius: 100px;
 }
 
-.skills {
+.skills1 {
   /* border: 2px solid yellow; */
   padding: 0;
   margin: 0;
 }
-svg {
+.iconss {
   width: 100px;
   height: 100px;
-  fill: orange;
 }
-.imgLogo {
+.imgLogo1 {
   width: 100px;
   height: 100px;
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-  .headingContainer {
+@media (min-width: 360px) and (max-width: 767px) {
+  .headingContainer1 {
     display: flex;
     width: 50%;
     margin: auto;
     padding: 30px 0 0 0;
   }
-  .heading {
+  .heading1 {
     font-size: 18px;
   }
-  .orangeDash {
+  .orangeDash1 {
     width: 60px;
   }
-  .skillsContainer {
+  .skillsContainer1 {
     width: 90%;
   }
-  .frontendBackend {
+  .frontendBackend1 {
     gap: 10px;
   }
 
-  svg {
+  .iconss {
     width: 50px;
     height: 50px;
-    fill: orange;
   }
-  .imgLogo {
+  .imgLogo1 {
     width: 50px;
     height: 50px;
   }
@@ -150,7 +148,7 @@ svg {
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .headingContainer {
+  .headingContainer1 {
     display: flex;
     width: 28%;
     margin: auto;
@@ -159,24 +157,23 @@ svg {
   /* .heading {
     font-size: 18px;
   } */
-  .orangeDash {
+  .orangeDash1 {
     width: 70px;
   }
 
-  .frontendBackend {
+  .frontendBackend1 {
     padding: 20px;
     gap: 10px;
   }
-  .skillsContainer {
+  .skillsContainer1 {
     width: 90%;
   }
 
-  svg {
+  .iconss {
     width: 95px;
     height: 95px;
-    fill: orange;
   }
-  .imgLogo {
+  .imgLogo1 {
     width: 95px;
     height: 95px;
   }
@@ -184,22 +181,21 @@ svg {
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .headingContainer {
+  .headingContainer1 {
     display: flex;
     width: 25%;
     margin: auto;
     padding: 30px 0 0 0;
   }
-  .frontendBackend {
+  .frontendBackend1 {
     padding: 20px;
     gap: 10px;
   }
-  svg {
+  .iconss {
     width: 110px;
     height: 110px;
-    fill: orange;
   }
-  .imgLogo {
+  .imgLogo1 {
     width: 110px;
     height: 110px;
   }

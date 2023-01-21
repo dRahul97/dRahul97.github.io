@@ -36,7 +36,7 @@
 #navbarRight > a:hover {
   border-bottom: 2px solid orange;
 }
-button {
+.resume {
   background-color: orange;
   font-family: "Open Sans", sans-serif;
   color: #0d2334;
@@ -46,27 +46,28 @@ button {
   border: none;
 }
 
-button a {
+.resume > a {
   text-decoration: none;
   color: #0d2334;
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .navbar {
-    width: 25rem;
+    width: 24rem;
     /* background-color: red; */
     height: 60px;
     margin-left: 10px;
+    padding-top: 10px;
   }
   #navbarLeft {
     width: 0%;
   }
   #navbarRight {
     font-size: 14px;
-    width: 90%;
+    width: 94%;
   }
-  button {
+  .resume {
     padding: 5px 6px;
     font-size: 13px;
   }
@@ -93,7 +94,7 @@ button a {
     cursor: pointer;
     color: #fff;
   }
-  button {
+  .resume {
     padding: 5px 7px;
     font-size: 13px;
   }
@@ -121,7 +122,7 @@ button a {
     cursor: pointer;
     color: #fff;
   }
-  button {
+  .resume {
     padding: 5px 7px;
     font-size: 13px;
   }

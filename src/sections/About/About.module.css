@@ -38,13 +38,13 @@
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .aboutContainer {
     padding-bottom: 100px;
   }
   .headingContainer {
     display: flex;
-    width: 75%;
+    width: 85%;
     margin: auto;
   }
   .heading {
@@ -55,7 +55,7 @@
   .orangeDash {
     border: 1px solid orange;
     margin: auto;
-    width: 65px;
+    width: 55px;
     background-color: orange;
   }
   .aboutme {

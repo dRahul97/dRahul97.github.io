@@ -14,18 +14,19 @@ const Skills = () => {
   return (
     <section id="skills" className={styles.main}>
       {/* Heading */}
-      <div className={styles.headingContainer}>
-        <span className={styles.orangeDash}></span>
-        <h2 className={styles.heading}>&nbsp; 🔥 Skills 🔥 &nbsp;</h2>
-        <span className={styles.orangeDash}></span>
+      <div className={styles.headingContainer1}>
+        <span className={styles.orangeDash1}></span>
+        <h2 className={styles.heading1}>&nbsp; 🔥 Skills 🔥 &nbsp;</h2>
+        <span className={styles.orangeDash1}></span>
       </div>
 
       {/* Skills Container */}
-      <div className={styles.skillsContainer}>
-        <div className={styles.skillsLeft}>
-          <div className={styles.frontendBackend}>
-            <div className={styles.skills}>
+      <div className={styles.skillsContainer1}>
+        <div className={styles.skillsLeft1}>
+          <div className={styles.frontendBackend1}>
+            <div className={styles.skills1}>
               <svg
+                className={styles.iconss}
                 style={{ fill: "#EB5C2B" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
@@ -34,8 +35,9 @@ const Skills = () => {
               </svg>
               <h3>HTML</h3>
             </div>
-            <div className={styles.skills}>
+            <div className={styles.skills1}>
               <svg
+                className={styles.iconss}
                 style={{ fill: "#254BDD" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
@@ -44,8 +46,9 @@ const Skills = () => {
               </svg>
               <h3>CSS</h3>
             </div>
-            <div className={styles.skills}>
+            <div className={styles.skills1}>
               <svg
+                className={styles.iconss}
                 style={{ fill: "yellow" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -54,8 +57,9 @@ const Skills = () => {
               </svg>
               <h3>JavaScript</h3>
             </div>
-            <div className={styles.skills}>
+            <div className={styles.skills1}>
               <svg
+                className={styles.iconss}
                 style={{ fill: "#7910F2" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 576 512"
@@ -64,12 +68,13 @@ const Skills = () => {
               </svg>
               <h3>BootStrap</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={typescript} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={typescript} alt="" />
               <h3>TypeScript</h3>
             </div>
-            <div className={styles.skills}>
+            <div className={styles.skills1}>
               <svg
+                className={styles.iconss}
                 style={{ fill: "#61D7F6" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -78,20 +83,21 @@ const Skills = () => {
               </svg>
               <h3>React</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={redux} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={redux} alt="" />
               <h3>Redux</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={github} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={github} alt="" />
               <h3>Github</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={vscode} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={vscode} alt="" />
               <h3>VS Code</h3>
             </div>
-            <div className={styles.skills}>
+            <div className={styles.skills1}>
               <svg
+                className={styles.iconss}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
                 width="480px"
@@ -105,24 +111,24 @@ const Skills = () => {
               </svg>
               <h3>Chakra UI</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={nodejs} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={nodejs} alt="" />
               <h3>NodeJs</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={netlify} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={netlify} alt="" />
               <h3>Netlify</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={vercel} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={vercel} alt="" />
               <h3>Vercel</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={mongodb} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={mongodb} alt="" />
               <h3>MongoDB</h3>
             </div>
-            <div className={styles.skills}>
-              <img className={styles.imgLogo} src={express} alt="" />
+            <div className={styles.skills1}>
+              <img className={styles.imgLogo1} src={express} alt="" />
               <h3>Express.JS</h3>
             </div>
           </div>

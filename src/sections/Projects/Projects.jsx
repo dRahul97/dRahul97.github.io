@@ -9,7 +9,7 @@ const Projects = () => {
         color: "#fff",
         margin: "auto",
         height: "500px",
-        border: "1px solid #fff",
+        // border: "1px solid #fff",
         marginTop: "100px",
         paddingTop: "200px",
         position: "relative",

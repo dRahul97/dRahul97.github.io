@@ -7,7 +7,7 @@
   display: flex;
   width: 35%;
   margin: auto;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 .heading {
   font-size: 23px;
@@ -48,10 +48,7 @@
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-  .gitStats {
-    /* border: 3px solid #fff; */
-  }
+@media (min-width: 360px) and(max-width: 767px) {
   .headingContainer {
     /* border: 1px solid yellow; */
     display: flex;
@@ -67,7 +64,7 @@
   }
   .calendar {
     /* border: 1px solid #fff; */
-    width: 85%;
+    width: 95%;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -93,9 +90,6 @@
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .gitStats {
-    /* border: 3px solid #fff; */
-  }
   .headingContainer {
     /* border: 1px solid yellow; */
     display: flex;
@@ -142,9 +136,6 @@
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .gitStats {
-    /* border: 3px solid #fff; */
-  }
   .headingContainer {
     /* border: 1px solid yellow; */
     display: flex;

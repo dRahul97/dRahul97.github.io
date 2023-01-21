@@ -11,8 +11,11 @@ const Navbar = () => {
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <button>
-          <a href="https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view">
+        <button className={style.resume}>
+          <a
+            href="https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view"
+            target="_blank"
+          >
             Resume
             <a href={resume} download="Rahul-Dudka-Resume">
               <i className="fa">&#xf019;</i>
