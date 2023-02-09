@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Skills.module.css";
+import "./Skills.css";
 import redux from "../../images/redux.svg";
 import typescript from "../../images/typescript.svg";
 import netlify from "../../images/netlify.svg";
@@ -12,21 +12,21 @@ import vscode from "../../images/vscode.svg";
 
 const Skills = () => {
   return (
-    <section id="skills" className={styles.main}>
+    <section id="skills" className="nav-link skills">
       {/* Heading */}
-      <div className={styles.headingContainer1}>
-        <span className={styles.orangeDash1}></span>
-        <h2 className={styles.heading1}>&nbsp; 🔥 Skills 🔥 &nbsp;</h2>
-        <span className={styles.orangeDash1}></span>
+      <div className="headingContainer1">
+        <span className="orangeDash1"></span>
+        <h2 className="heading1">&nbsp; 🔥 Skills 🔥 &nbsp;</h2>
+        <span className="orangeDash1"></span>
       </div>
 
       {/* Skills Container */}
-      <div className={styles.skillsContainer1}>
-        <div className={styles.skillsLeft1}>
-          <div className={styles.frontendBackend1}>
-            <div className={styles.skills1}>
+      <div className="skillsContainer1">
+        <div className="skillsLeft1">
+          <div className="frontendBackend1">
+            <div className="skills1">
               <svg
-                className={styles.iconss}
+                className="iconss"
                 style={{ fill: "#EB5C2B" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
@@ -35,9 +35,9 @@ const Skills = () => {
               </svg>
               <h3>HTML</h3>
             </div>
-            <div className={styles.skills1}>
+            <div className="skills1">
               <svg
-                className={styles.iconss}
+                className="iconss"
                 style={{ fill: "#254BDD" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
@@ -46,9 +46,9 @@ const Skills = () => {
               </svg>
               <h3>CSS</h3>
             </div>
-            <div className={styles.skills1}>
+            <div className="skills1">
               <svg
-                className={styles.iconss}
+                className="iconss"
                 style={{ fill: "yellow" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -57,9 +57,9 @@ const Skills = () => {
               </svg>
               <h3>JavaScript</h3>
             </div>
-            <div className={styles.skills1}>
+            <div className="skills1">
               <svg
-                className={styles.iconss}
+                className="iconss"
                 style={{ fill: "#7910F2" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 576 512"
@@ -68,13 +68,13 @@ const Skills = () => {
               </svg>
               <h3>BootStrap</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={typescript} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={typescript} alt="" />
               <h3>TypeScript</h3>
             </div>
-            <div className={styles.skills1}>
+            <div className="skills1">
               <svg
-                className={styles.iconss}
+                className="iconss"
                 style={{ fill: "#61D7F6" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -83,21 +83,21 @@ const Skills = () => {
               </svg>
               <h3>React</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={redux} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={redux} alt="" />
               <h3>Redux</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={github} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={github} alt="" />
               <h3>Github</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={vscode} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={vscode} alt="" />
               <h3>VS Code</h3>
             </div>
-            <div className={styles.skills1}>
+            <div className="skills1">
               <svg
-                className={styles.iconss}
+                className="iconss"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
                 width="480px"
@@ -111,24 +111,24 @@ const Skills = () => {
               </svg>
               <h3>Chakra UI</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={nodejs} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={nodejs} alt="" />
               <h3>NodeJs</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={netlify} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={netlify} alt="" />
               <h3>Netlify</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={vercel} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={vercel} alt="" />
               <h3>Vercel</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={mongodb} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={mongodb} alt="" />
               <h3>MongoDB</h3>
             </div>
-            <div className={styles.skills1}>
-              <img className={styles.imgLogo1} src={express} alt="" />
+            <div className="skills1">
+              <img className="imgLogo1" src={express} alt="" />
               <h3>Express.JS</h3>
             </div>
           </div>

@@ -4,20 +4,21 @@
 }
 
 .headingContainer {
+  /* border: 1px solid #fff; */
   display: flex;
   width: 35%;
   margin: auto;
-  padding: 20px 0;
+  padding: 30px;
 }
 .heading {
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
   color: #fff;
 }
 .orangeDash {
   border: 1px solid orange;
   margin: auto;
-  width: 95px;
+  width: 75px;
   background-color: orange;
 }
 
@@ -46,21 +47,28 @@
   align-items: center;
   justify-content: center;
 }
+.commit1 {
+  width: 40%;
+}
+.commit2 {
+  width: 40%;
+}
+.commit3 {
+  width: 35%;
+}
 
 /* Media Query for Mobile Devices */
-@media (min-width: 360px) and(max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .headingContainer {
     /* border: 1px solid yellow; */
-    display: flex;
-    width: 70%;
-    margin: auto;
-    padding: 5px;
+    width: 94%;
+    padding: 20px 0;
   }
   .heading {
-    font-size: 15px;
+    font-size: 19px;
   }
   .orangeDash {
-    width: 50px;
+    width: 45px;
   }
   .calendar {
     /* border: 1px solid #fff; */
@@ -70,11 +78,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 10px;
+    padding: 15px;
   }
   .commits {
     /* border: 1px solid yellow; */
-    width: 75%;
+    width: 89%;
     gap: 15px;
   }
   .commit1 {
@@ -93,9 +101,9 @@
   .headingContainer {
     /* border: 1px solid yellow; */
     display: flex;
-    width: 48%;
+    width: 58%;
     margin: auto;
-    padding: 5px;
+    padding: 20px;
   }
   .heading {
     font-size: 20px;
@@ -105,15 +113,17 @@
   }
   .calendar {
     /* border: 1px solid #fff; */
-    width: 85%;
+    width: 90%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px;
   }
   .commits {
     /* border: 1px solid yellow; */
-    width: 88%;
+    width: 90%;
     height: 350px;
     display: flex;
     align-items: center;

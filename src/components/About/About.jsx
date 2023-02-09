@@ -3,19 +3,19 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <section id="about" className={styles.aboutContainer}>
-      <div>
+    <div id="about" className="about section">
+      <div id={styles.aboutContainer} className="nav-link about">
         {/* Heading */}
         <div className={styles.headingContainer}>
           <span className={styles.orangeDash}></span>
-          <h2 className={styles.heading}>ABOUT ME</h2>
+          <h2 className={styles.heading}>ABOUT ME </h2>
           <span className={styles.orangeDash}></span>
         </div>
 
         {/* About me */}
 
-        <div className={styles.aboutme}>
-          <h3>Hello!, my name is Rahul, a Full stack web developer.</h3>
+        <div id="user-detail-intro" className={styles.aboutme}>
+          <h3> Hello! my name is Rahul, 👋 a Full stack web developer. </h3>
           <p>
             🔸Worked on different projects as leader and co-leader. 🔸
             <br />
@@ -30,7 +30,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

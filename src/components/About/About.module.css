@@ -1,4 +1,4 @@
-.aboutContainer {
+#aboutContainer {
   /* border: 1px solid #fff; */
   width: 82%;
   color: #fff;
@@ -11,6 +11,7 @@
 .headingContainer {
   display: flex;
   width: 35%;
+  padding-bottom: 30px;
   margin: auto;
 }
 .heading {
@@ -25,9 +26,11 @@
   background-color: orange;
 }
 .aboutme {
+  /* border: 1px solid #fff; */
   width: 80%;
+  height: 40%;
   margin: auto;
-  line-height: 30px;
+  line-height: 40px;
 }
 .aboutme > h3 {
   font-size: 18px;
@@ -39,16 +42,19 @@
 
 /* Media Query for Mobile Devices */
 @media (min-width: 360px) and (max-width: 767px) {
-  .aboutContainer {
-    padding-bottom: 100px;
+  #aboutContainer {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    height: auto;
   }
   .headingContainer {
     display: flex;
     width: 85%;
+    height: auto;
     margin: auto;
   }
   .heading {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     color: #fff;
   }
@@ -61,10 +67,11 @@
   .aboutme {
     width: 92%;
     margin: auto;
+    line-height: 35px;
   }
   .aboutme > p {
     /* border: 1px solid #fff; */
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
