@@ -8,7 +8,7 @@ const About = () => {
         {/* Heading */}
         <div className={styles.headingContainer}>
           <span className={styles.orangeDash}></span>
-          <h2 className={styles.heading}>ABOUT ME </h2>
+          <h2 className={`${styles.heading} about`}>About</h2>
           <span className={styles.orangeDash}></span>
         </div>
 

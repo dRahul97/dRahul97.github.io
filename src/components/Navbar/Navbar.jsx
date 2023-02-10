@@ -48,7 +48,6 @@ export default function Navbar() {
             aria-label={"Open Menu"}
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
-            // bg="orange"
             position={"relative"}
             left="30px"
             zIndex={444444}
@@ -68,11 +67,11 @@ export default function Navbar() {
               <a href="#contact">Contact</a>
               <a
                 id="resume-button-1"
-                className={style.resume}
+                className={`${style.resumes} nav-link resume`}
                 href={resume}
                 target="_blank"
-                onClick={handleResume}
                 download="Rahul-Dudka-Resume"
+                onClick={handleResume}
               >
                 Resume <i className="fa">&#xf019;</i>
               </a>
