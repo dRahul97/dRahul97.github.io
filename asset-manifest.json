@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f38d949.css",
-    "main.js": "/static/js/main.6d15fd58.js",
+    "main.css": "/static/css/main.78ef61e2.css",
+    "main.js": "/static/js/main.9c8888e5.js",
     "static/media/fashion_square.png": "/static/media/fashion_square.e7d38826189e29d35807.png",
     "static/media/travel_advisor.jpg": "/static/media/travel_advisor.5f6717e0c22de67a017b.jpg",
     "static/media/unbounce.jpg": "/static/media/unbounce.5b1e615cf3ee4a2d8f7d.jpg",
@@ -19,11 +19,11 @@
     "static/media/vscode.svg": "/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
     "static/media/firebase.svg": "/static/media/firebase.e684013a4b7b9be6f0dfba489beaf8f6.svg",
     "static/media/chakra-ui .svg": "/static/media/chakra-ui .8ca6158c0a0c9b4765405be4d0906b5a.svg",
-    "main.6f38d949.css.map": "/static/css/main.6f38d949.css.map",
-    "main.6d15fd58.js.map": "/static/js/main.6d15fd58.js.map"
+    "main.78ef61e2.css.map": "/static/css/main.78ef61e2.css.map",
+    "main.9c8888e5.js.map": "/static/js/main.9c8888e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f38d949.css",
-    "static/js/main.6d15fd58.js"
+    "static/css/main.78ef61e2.css",
+    "static/js/main.9c8888e5.js"
   ]
 }
