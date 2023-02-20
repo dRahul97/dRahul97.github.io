@@ -21,7 +21,8 @@ const GitStats = () => {
         <img
           id="github-streak-stats"
           className={styles.commit2}
-          src="https://github-readme-streak-stats.herokuapp.com/?user=dRahul97&theme=radical&hide_border=false"
+          src="https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=true"
+          // [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=true)](https://git.io/streak-stats)
           alt=""
         />
 

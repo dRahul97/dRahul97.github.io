@@ -4,14 +4,12 @@ import styles from "../Home/Home.module.css";
 import style from "../Home/Home.module.css";
 import resume from "../resume/Rahul-Dudka-Resume.pdf";
 import "./profile.css";
-// import profilepic from "../../images/profile-pic.jpg";
+import profilepic from "../../images/profile-pic.jpg";
 
 const Home = () => {
-  const handleResume = () => {
-    window.open(
-      "https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view?usp=sharing"
-    );
-  };
+  // const handleResume = () => {
+
+  // };
   return (
     <div id="home" className="nav-link home">
       <div className={styles.home}>
@@ -66,7 +64,11 @@ const Home = () => {
               className={style.resume}
               href={resume}
               target="_blank"
-              onClick={handleResume}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view?usp=sharing"
+                );
+              }}
               download="Rahul-Dudka-Resume"
             >
               Resume <i className="fa">&#xf019;</i>
@@ -75,7 +77,7 @@ const Home = () => {
         </div>
         {/* </Fade> */}
         <div className="profile">
-          <div className="home-img profilePic"></div>
+          <img className="home-img" src={profilepic} />
         </div>
       </div>
     </div>
