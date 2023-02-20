@@ -17,7 +17,7 @@ function App() {
       <About />
       <GitStats />
       <Skills />
-      <Projects />
+      <Projects id="projects" />
       <Contact />
     </div>
   );

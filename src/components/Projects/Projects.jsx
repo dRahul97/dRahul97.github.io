@@ -11,7 +11,7 @@ import screen from "../../images/icons8-tv-50.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="nav-link projects">
+    <div className="nav-link projects">
       {/* Heading */}
       <div className="headContainer1">
         <span className="orangDash1"></span>
