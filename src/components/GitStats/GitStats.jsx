@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import styles from "./GitStats.module.css";
+import contributions from "../../images/contributions.png";
 const GitStats = () => {
   return (
     <div className={styles.gitStats}>
@@ -13,7 +14,8 @@ const GitStats = () => {
 
       {/* Calendar */}
       <div className={styles.calendar}>
-        <GitHubCalendar username="drahul97" />
+        <img src={contributions} alt="" />
+        {/* <GitHubCalendar username="drahul97" /> */}
       </div>
 
       {/* Stats */}
@@ -21,7 +23,7 @@ const GitStats = () => {
         <img
           id="github-streak-stats"
           className={styles.commit2}
-          src="https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=true"
+          src="https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=false"
           // [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=true)](https://git.io/streak-stats)
           alt=""
         />

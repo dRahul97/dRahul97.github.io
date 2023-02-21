@@ -1,17 +1,18 @@
 import React from "react";
 import "./Projects.css";
 import fashionSqaure from "../../images/fashion_square.png";
+import jcrew from "../../images/jcrew.png";
 import traveladvisor from "../../images/travel_advisor.jpg";
 import unbounce from "../../images/unbounce.jpg";
 import redux from "../../images/redux.svg";
 import firebase from "../../images/firebase.svg";
 import chakra from "../../images/chakra-ui .svg";
 import github from "../../images/github-icon-1.svg";
-import screen from "../../images/icons8-tv-50.png";
+import screen from "../../images/scrren-white.png";
 
 const Projects = () => {
   return (
-    <div className="nav-link projects">
+    <div id="projects" className="nav-link projects">
       {/* Heading */}
       <div className="headContainer1">
         <span className="orangDash1"></span>
@@ -167,9 +168,9 @@ const Projects = () => {
           {/* details-div */}
           <div className="project1-details">
             <div>
-              <h3 className="project-title">3. Unbounce Clone </h3>
+              <h3 className="project-title">3. Unbounce Website Clone </h3>
               <span
-                style={{ marginRight: "200px" }}
+                style={{ marginRight: "130px" }}
                 className="orangDash2"
               ></span>
             </div>
@@ -232,7 +233,7 @@ const Projects = () => {
           {/* details-div */}
           <div className="project1-details">
             <div>
-              <h3 className="project-title">3. Unbounce Clone </h3>
+              <h3 className="project-title">4. J.CREW Website Clone </h3>
               <span
                 style={{ marginRight: "200px" }}
                 className="orangDash2"
@@ -240,11 +241,11 @@ const Projects = () => {
             </div>
 
             <p className="project-description">
-              Unbounce helps the customers to build the landing page for their
-              website. Using AI they transform your ideas into campaigns that
-              get results.
+              JCREW - an international clothing brand. This project uses HTML,
+              CSS, and Javascript to showcase the functioning of an E-Commerce
+              website.
             </p>
-            <p>Its an Indiviual Project built in 4 days.</p>
+            <p>Its a collaborative project with team of 5 members.</p>
 
             <div className="project-tech-stack">
               <h4>Tech Stack :</h4>
@@ -276,14 +277,14 @@ const Projects = () => {
             <div className="codebase">
               <a
                 className="project-github-link"
-                href="https://github.com/dRahul97/Unbounce-Clone"
+                href="https://github.com/sudiptapramanik209/Jcrew-website-clone"
               >
                 <img src={github} alt="" />
                 <p>Codebase</p>
               </a>
               <a
                 className="project-deployed-link"
-                href="https://github.com/dRahul97/Unbounce-Clone"
+                href="https://calm-florentine-38a27c.netlify.app/"
               >
                 <img src={screen} alt="" />
                 <p>Live Demo</p>
@@ -291,7 +292,7 @@ const Projects = () => {
             </div>
           </div>
           {/* image */}
-          <img className="project1-img" src={unbounce} alt="" />
+          <img className="project1-img" src={jcrew} alt="" />
         </div>
       </div>
     </div>

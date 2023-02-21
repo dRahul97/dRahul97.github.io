@@ -92,9 +92,9 @@
   /* Paint an image in the border */
   border-image: conic-gradient(
       from var(--angle),
-      black 0deg 90deg,
+      rgb(62, 0, 0) 0deg 90deg,
       #fbb300 90deg 180deg,
-      black 180deg 270deg,
+      rgb(62, 0, 0) 180deg 270deg,
       #fbb300 270deg 360deg
     )
     1 stretch;
