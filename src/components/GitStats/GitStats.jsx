@@ -14,8 +14,8 @@ const GitStats = () => {
 
       {/* Calendar */}
       <div className={styles.calendar}>
-        <img src={contributions} alt="" />
-        {/* <GitHubCalendar username="drahul97" /> */}
+        {/* <img src={contributions} alt="" /> */}
+        <GitHubCalendar username="drahul97" />
       </div>
 
       {/* Stats */}
@@ -23,7 +23,8 @@ const GitStats = () => {
         <img
           id="github-streak-stats"
           className={styles.commit2}
-          src="https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=false"
+          src="https://github-readme-streak-stats.herokuapp.com?user=drahul97&theme=radical&hide_border=false"
+          // src="https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=false"(previous one)
           // [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=dRahul97&theme=radical&hide_border=true)](https://git.io/streak-stats)
           alt=""
         />
@@ -31,13 +32,15 @@ const GitStats = () => {
         <img
           id="github-top-langs"
           className={styles.commit3}
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=dRahul97&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=drahul97&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+          // src="https://github-readme-stats.vercel.app/api/top-langs/?username=dRahul97&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"(previous one)
           alt=""
         />
         <img
           id="github-stats-card"
           className={styles.commit1}
-          src="https://github-readme-stats.vercel.app/api?username=dRahul97&theme=radical&hide_border=false&include_all_commits=true&count_private=true"
+          src="https://github-readme-stats.vercel.app/api?username=drahul97&theme=radical&hide_border=false&include_all_commits=true&count_private=true"
+          // src="https://github-readme-stats.vercel.app/api?username=dRahul97&theme=radical&hide_border=false&include_all_commits=true&count_private=true"(previous one)
           alt=""
         />
       </div>

@@ -84,7 +84,7 @@ export default function Navbar() {
             position="relative"
             left="230px"
             border={"2px solid orange"}
-            bg={"#0f304d"}
+            bg={"#171717"}
             justifyContent={"right"}
             alignItems={"center"}
             padding="10px 34px"

@@ -213,6 +213,7 @@ const Projects = () => {
               <a
                 className="project-github-link"
                 href="https://github.com/dRahul97/Unbounce-Clone"
+                target="_blank"
               >
                 <img src={github} alt="" />
                 <p>Codebase</p>
@@ -220,6 +221,7 @@ const Projects = () => {
               <a
                 className="project-deployed-link"
                 href="https://github.com/dRahul97/Unbounce-Clone"
+                target="_blank"
               >
                 <img src={screen} alt="" />
                 <p>Live Demo</p>
@@ -235,7 +237,7 @@ const Projects = () => {
             <div>
               <h3 className="project-title">4. J.CREW Website Clone </h3>
               <span
-                style={{ marginRight: "200px" }}
+                style={{ marginRight: "160px" }}
                 className="orangDash2"
               ></span>
             </div>
@@ -278,6 +280,7 @@ const Projects = () => {
               <a
                 className="project-github-link"
                 href="https://github.com/sudiptapramanik209/Jcrew-website-clone"
+                target="_blank"
               >
                 <img src={github} alt="" />
                 <p>Codebase</p>
@@ -285,6 +288,7 @@ const Projects = () => {
               <a
                 className="project-deployed-link"
                 href="https://calm-florentine-38a27c.netlify.app/"
+                target="_blank"
               >
                 <img src={screen} alt="" />
                 <p>Live Demo</p>

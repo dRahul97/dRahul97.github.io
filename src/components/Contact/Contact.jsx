@@ -93,12 +93,12 @@ const Contact = () => {
           </div>
         </div>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Name" />
+          <input type="text" name="name" placeholder="Name" required />
 
-          <input type="email" name="email" placeholder="Email" />
+          <input type="email" name="email" placeholder="Email" required />
 
-          <textarea name="message" placeholder="Message . . ." />
-          <input type="submit" value="Send" />
+          <textarea name="message" placeholder="Message . . ." required />
+          <input type="submit" value="Send" required />
         </form>
       </div>
     </div>

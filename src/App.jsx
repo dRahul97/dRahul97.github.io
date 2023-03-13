@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import GitStats from "./components/GitStats/GitStats";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <Projects id="projects" />
       <Contact />
+      <Footer />
     </div>
   );
 }
