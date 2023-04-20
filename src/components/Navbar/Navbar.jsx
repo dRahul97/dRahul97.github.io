@@ -65,16 +65,29 @@ export default function Navbar() {
               <a href="#skills">Skills</a>
               <a href="#projects">Projects</a>
               <a href="#contact">Contact</a>
-              <a
-                id="resume-button-1"
-                className={`${style.resumes} nav-link resume`}
-                href={resume}
-                target="_blank"
-                download="Rahul-Dudka-Resume"
-                onClick={handleResume}
-              >
-                Resume <i className="fa">&#xf019;</i>
-              </a>
+              {/* <button id="resume-button-1" onClick={handleResume}>
+                <a
+                  id="resume-link-1"
+                  className={`${style.resumes} nav-link resume`}
+                  href={resume}
+                  target="_blank"
+                  download="Rahul-Dudka-Resume"
+                >
+                  Resume <i className="fa">&#xf019;</i>
+                </a>
+              </button> */}
+              <button id="resume-button-1" onClick={handleResume}>
+                <a
+                  id="resume-link-1"
+                  href={resume}
+                  download="Rahul-Dudka-Resume"
+                  target="_blank"
+                  className={`${style.resumes} nav-link resume`}
+                  rel="noreferrer"
+                >
+                  Resume <i className="fa">&#xf019;</i>
+                </a>
+              </button>
             </HStack>
           </HStack>
         </Flex>
