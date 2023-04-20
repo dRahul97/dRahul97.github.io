@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f8b1d471.css",
-    "main.js": "/static/js/main.80fa1f1e.js",
+    "main.js": "/static/js/main.e1a1919b.js",
     "static/media/jcrew.png": "/static/media/jcrew.d29c6cd9e329069b2206.png",
-    "static/media/fashion_square.png": "/static/media/fashion_square.e7d38826189e29d35807.png",
     "static/media/travel_advisor.jpg": "/static/media/travel_advisor.5f6717e0c22de67a017b.jpg",
     "static/media/unbounce.jpg": "/static/media/unbounce.5b1e615cf3ee4a2d8f7d.jpg",
     "static/media/Rahul-Dudka-Resume.pdf": "/static/media/Rahul-Dudka-Resume.b17f4c2748ed84916458.pdf",
@@ -19,13 +18,12 @@
     "static/media/express-js-icon.svg": "/static/media/express-js-icon.18c65d081111487b28feea723a7bf420.svg",
     "static/media/vercel.svg": "/static/media/vercel.03ecb37a5f24b64e62f8e650915ee923.svg",
     "static/media/vscode.svg": "/static/media/vscode.b8b1e001813039750e6c05c236ab0d46.svg",
-    "static/media/firebase.svg": "/static/media/firebase.e684013a4b7b9be6f0dfba489beaf8f6.svg",
     "static/media/chakra-ui .svg": "/static/media/chakra-ui .8ca6158c0a0c9b4765405be4d0906b5a.svg",
     "main.f8b1d471.css.map": "/static/css/main.f8b1d471.css.map",
-    "main.80fa1f1e.js.map": "/static/js/main.80fa1f1e.js.map"
+    "main.e1a1919b.js.map": "/static/js/main.e1a1919b.js.map"
   },
   "entrypoints": [
     "static/css/main.f8b1d471.css",
-    "static/js/main.80fa1f1e.js"
+    "static/js/main.e1a1919b.js"
   ]
 }
