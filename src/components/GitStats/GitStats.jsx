@@ -14,7 +14,7 @@ const GitStats = () => {
 
       {/* Calendar */}
       <div className={styles.calendar}>
-        <img src={contributions} alt="" />
+        <img src={contributions} alt="" height={"100%"} width={"99%"} />
         {/* <GitHubCalendar
           style={{ transform: "scale(18)" }}
           hideTotalCount="false"

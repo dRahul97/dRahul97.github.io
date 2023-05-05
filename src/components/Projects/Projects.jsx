@@ -9,6 +9,8 @@ import redux from "../../images/redux.svg";
 import chakra from "../../images/chakra-ui .svg";
 import github from "../../images/github-icon-1.svg";
 import screen from "../../images/scrren-white.png";
+import meesho from "../../images/MeeshoPage.png";
+
 // import vercel from "../../images/vercel.svg";
 
 const Projects = () => {
@@ -26,11 +28,7 @@ const Projects = () => {
         {/* project1 */}
         <div className="project1 project-card">
           {/* image */}
-          <img
-            className="project1-img"
-            src="https://github.com/palabhi017/rctc4eva/blob/master/src/styles/Screenshot%20(129).png?raw=true"
-            alt=""
-          />
+          <img className="project1-img" src={meesho} alt="" />
           {/* details-div */}
           <div className="project1-details">
             <div>
