@@ -5,7 +5,7 @@ import mail from "../../images/mail.png";
 import linkedin_30 from "../../images/linkedin-30.png";
 import twitter_30 from "../../images/twitter-30.png";
 import phone_20 from "../../images/phone-20.png";
-import { useToast, Button } from "@chakra-ui/react";
+import { useToast } from "@chakra-ui/react";
 
 const Contact = () => {
   const form = useRef();
@@ -65,6 +65,7 @@ const Contact = () => {
                 id="contact-email"
                 href="mailto:drahul.official@gmail.com"
                 target="_blank"
+                rel="noreferrer"
               >
                 drahul.official@gmail.com
               </a>
@@ -80,6 +81,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/rahul-dudka-23557a1a1/"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
@@ -87,7 +89,11 @@ const Contact = () => {
           <div>
             <img src={twitter_30} alt="" />
             <h3>Twitter</h3>
-            <a href="https://twitter.com/rahul_dudka" target="_blank">
+            <a
+              href="https://twitter.com/rahul_dudka"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </div>

@@ -23,11 +23,11 @@
 }
 
 .calendar {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   width: 65%;
   height: 200px;
   margin: auto;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -152,6 +152,10 @@ svg {
     gap: 20px;
   }
 
+  .project-tech-stack > div {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
   .project1-img {
     /* border: 2px solid #b5d837; */
     width: 90%;
