@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ecfe802.css",
-    "main.js": "/static/js/main.4604be60.js",
+    "main.css": "/static/css/main.a1a920c3.css",
+    "main.js": "/static/js/main.d8f0e83c.js",
     "static/media/fashion_square.png": "/static/media/fashion_square.e7d38826189e29d35807.png",
     "static/media/MeeshoPage.png": "/static/media/MeeshoPage.f4ee9c864fbc3305a99c.png",
     "static/media/trendify-home.jpg": "/static/media/trendify-home.a0e99ec9fa764367a985.jpg",
+    "static/media/meat-hub.jpg": "/static/media/meat-hub.4ac923a839264b152fdb.jpg",
     "static/media/travel_advisor.jpg": "/static/media/travel_advisor.5f6717e0c22de67a017b.jpg",
-    "static/media/Rahul-Dudka-Resume.pdf": "/static/media/Rahul-Dudka-Resume.6219ae3c3c0fad41764e.pdf",
-    "static/media/contributions.png": "/static/media/contributions.5c4ff30d357a1e63c06a.png",
+    "static/media/Rahul-Dudka-Resume.pdf": "/static/media/Rahul-Dudka-Resume.ef324a43706b04b44756.pdf",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.4c39fe8e8ff33ddf87fd.jpg",
+    "static/media/contributions.png": "/static/media/contributions.66a6b3abbcb7dcfd1a45.png",
     "static/media/React.svg": "/static/media/React.32ce75177b9c74cb3fd1b083e25f2bf4.svg",
     "static/media/github-icon-1.svg": "/static/media/github-icon-1.b7a10feda26d4448ddb6612b147890c2.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
@@ -25,11 +26,11 @@
     "static/media/chakra-ui .svg": "/static/media/chakra-ui .8ca6158c0a0c9b4765405be4d0906b5a.svg",
     "static/media/css.svg": "/static/media/css.e5bbf11f09a6b5c14805fd9f69942dfe.svg",
     "static/media/html.svg": "/static/media/html.36442a8e144ba49a3f500618a58dd045.svg",
-    "main.9ecfe802.css.map": "/static/css/main.9ecfe802.css.map",
-    "main.4604be60.js.map": "/static/js/main.4604be60.js.map"
+    "main.a1a920c3.css.map": "/static/css/main.a1a920c3.css.map",
+    "main.d8f0e83c.js.map": "/static/js/main.d8f0e83c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ecfe802.css",
-    "static/js/main.4604be60.js"
+    "static/css/main.a1a920c3.css",
+    "static/js/main.d8f0e83c.js"
   ]
 }
