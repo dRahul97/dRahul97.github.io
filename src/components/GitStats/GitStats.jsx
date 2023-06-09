@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 import styles from "./GitStats.module.css";
 import contributions from "../../images/contributions.png";
 const GitStats = () => {

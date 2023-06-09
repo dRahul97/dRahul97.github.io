@@ -7,6 +7,7 @@ import chakra from "../../images/chakra-ui .svg";
 import github from "../../images/github-icon-1.svg";
 import screen from "../../images/scrren-white.png";
 import meesho from "../../images/MeeshoPage.png";
+import meatHub from "../../images/meat-hub.jpg";
 import html from "../../images/html.svg";
 import css from "../../images/css.svg";
 import react from "../../images/React.svg";
@@ -148,11 +149,67 @@ const Projects = () => {
         {/* project3 */}
         <div className="project1 project-card">
           {/* image */}
+          <img className="project1-img" src={meatHub} alt="" />
+          {/* details-div */}
+          <div className="project1-details">
+            <div>
+              <h3 className="project-title">3. Meat-Hub</h3>
+              <span
+                style={{ marginLeft: "50px" }}
+                className="orangDash2"
+              ></span>
+            </div>
+
+            <p className="project-description">
+              Meat-Hub exists because we deserver better meat. Meat-Hub is
+              designed by taking inspiration from licious web application which
+              is an online meat delivery platform.
+            </p>
+            <p>Its is an Individual project built in 5 days.</p>
+
+            <div className="project-tech-stack">
+              <h4>Tech Stack :</h4>
+              <div>
+                <img src={html} alt="" />
+                <img src={css} alt="" />
+                <img src={react} alt="" />
+                <img src={redux} alt="" />
+                <img src={chakra} alt="" />
+                <img src={vercel} alt="" />
+              </div>
+            </div>
+
+            <div className="codebase">
+              <a
+                className="project-github-link"
+                href="https://github.com/dRahul97/Meat-Hub_"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="" />
+                <p>Codebase</p>
+              </a>
+              <a
+                className="project-deployed-link"
+                href="https://drahul97-meathub.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={screen} alt="" />
+                <p>Live Demo</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* project4 */}
+        <div className="project1 project-card">
+          {/* image */}
           <img className="project1-img" src={fashionSqaure} alt="" />
           {/* details-div */}
           <div className="project1-details">
             <div>
-              <h3 className="project-title">3.&nbsp; Fashion_Square </h3>
+              <h3 className="project-title">4.&nbsp; Fashion_Square </h3>
               <span
                 style={{ marginLeft: "50px" }}
                 className="orangDash2"
@@ -202,13 +259,13 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* project4 */}
+        {/* project5 */}
         <div className="project1 project-card">
           {/* details-div */}
           <img className="project1-img" src={traveladvisor} alt="" />
           <div className="project1-details">
             <div>
-              <h3 className="project-title">4. Travel_Advisor </h3>
+              <h3 className="project-title">5. Travel_Advisor </h3>
               <span
                 style={{ marginLeft: "50px" }}
                 className="orangDash2"
