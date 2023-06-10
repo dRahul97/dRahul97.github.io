@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1a920c3.css",
-    "main.js": "/static/js/main.d8f0e83c.js",
+    "main.js": "/static/js/main.24ca3186.js",
     "static/media/fashion_square.png": "/static/media/fashion_square.e7d38826189e29d35807.png",
     "static/media/MeeshoPage.png": "/static/media/MeeshoPage.f4ee9c864fbc3305a99c.png",
     "static/media/trendify-home.jpg": "/static/media/trendify-home.a0e99ec9fa764367a985.jpg",
@@ -27,10 +27,10 @@
     "static/media/css.svg": "/static/media/css.e5bbf11f09a6b5c14805fd9f69942dfe.svg",
     "static/media/html.svg": "/static/media/html.36442a8e144ba49a3f500618a58dd045.svg",
     "main.a1a920c3.css.map": "/static/css/main.a1a920c3.css.map",
-    "main.d8f0e83c.js.map": "/static/js/main.d8f0e83c.js.map"
+    "main.24ca3186.js.map": "/static/js/main.24ca3186.js.map"
   },
   "entrypoints": [
     "static/css/main.a1a920c3.css",
-    "static/js/main.d8f0e83c.js"
+    "static/js/main.24ca3186.js"
   ]
 }
