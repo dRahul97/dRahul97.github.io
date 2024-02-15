@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.02a58594.css",
-    "main.js": "/static/js/main.30b59164.js",
+    "main.css": "/static/css/main.5dd84d4a.css",
+    "main.js": "/static/js/main.e2eeee53.js",
     "static/media/limeroadHP.png": "/static/media/limeroadHP.e7d38826189e29d35807.png",
     "static/media/MeeshoPage.png": "/static/media/MeeshoPage.cd55799f401e10ed2b56.png",
     "static/media/meat-hub.jpg": "/static/media/meat-hub.4ac923a839264b152fdb.jpg",
@@ -23,11 +23,11 @@
     "static/media/nextjs-icon.png": "/static/media/nextjs-icon.9f8054a6dc0837262000.png",
     "static/media/express-js-icon.png": "/static/media/express-js-icon.9b344d7469dbbdc76754.png",
     "index.html": "/index.html",
-    "main.02a58594.css.map": "/static/css/main.02a58594.css.map",
-    "main.30b59164.js.map": "/static/js/main.30b59164.js.map"
+    "main.5dd84d4a.css.map": "/static/css/main.5dd84d4a.css.map",
+    "main.e2eeee53.js.map": "/static/js/main.e2eeee53.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a58594.css",
-    "static/js/main.30b59164.js"
+    "static/css/main.5dd84d4a.css",
+    "static/js/main.e2eeee53.js"
   ]
 }
