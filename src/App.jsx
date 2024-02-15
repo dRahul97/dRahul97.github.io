@@ -1,27 +1,26 @@
+import React from "react";
+import Header from "./Components/Header/Header";
+import Navbar from "./Components/Navbar/Navbar";
+import About from "./Components/About/About";
+import Skills from "./Components/Skills/Skills";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 import "./App.css";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import GitStats from "./components/GitStats/GitStats";
-import Home from "./components/Home/Home";
-import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
-import Particle from "./components/TSParticles/Particles";
+import Stats from "./Components/Stats/Stats";
 
 function App() {
   return (
-    <div className="App">
-      <Particle />
+    <>
+      <Header />
       <Navbar />
-      <Home />
       <About />
-      <GitStats />
+      <Portfolio />
+      <Stats />
       <Skills />
-      <Projects />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

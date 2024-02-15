@@ -1,197 +1,105 @@
-.skills {
-  /* border: 1px solid #fff; */
-  padding-top: 100px;
-  position: relative;
-}
-.skillsContainer1 {
-  width: 82%;
-  height: 550px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  margin: auto;
-  color: #fff;
-  border-radius: 10px;
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
-.headingContainer1 {
-  display: flex;
-  width: 20%;
-  margin: auto;
-  padding: 30px 0;
+.experience__container > div {
+  background: var(--color-bg-variant);
+  padding: 3rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
-.heading1 {
-  font-size: 23px;
+
+.experience__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience__container > div h3 {
   text-align: center;
-  color: #fff;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
 }
-.orangeDash1 {
-  border: 1px solid orange;
+
+.experience__content {
+  width: 22rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 5.3rem;
   margin: auto;
-  width: 75px;
-  background-color: orange;
 }
 
-.skillsLeft1 {
-  /* border: 1px solid #fff; */
-  width: 95%;
-  height: 95%;
-  text-align: center;
+.experience__details {
   display: flex;
-  flex-direction: column;
-}
-@supports (background: paint(houdini)) {
-  @property --opacity {
-    syntax: "<number>";
-    initial-value: 0.5;
-    inherits: false;
-  }
-
-  @property --angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
-  }
-
-  @keyframes opacityChange {
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes rotate {
-    to {
-      --angle: 360deg;
-    }
-  }
-
-  .frontendBackend1 {
-    animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
-  }
-}
-.subHeading1 {
-  font-size: 22px;
-  border-bottom: 2px solid orange;
-  width: 25%;
-  height: auto;
-  margin: auto;
-  margin-bottom: 20px;
-}
-.frontendBackend1 {
-  /* border: 1px solid #fff; */
-  width: 100%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-
-  border: 0.3rem solid transparent;
-  /* Paint an image in the border */
-  border-image: conic-gradient(
-      from var(--angle),
-      rgb(62, 0, 0) 0deg 90deg,
-      #fbb300 90deg 180deg,
-      rgb(62, 0, 0) 180deg 270deg,
-      #fbb300 270deg 360deg
-    )
-    1 stretch;
-  border-radius: 100px;
+  gap: 1rem;
 }
 
-.skills1 {
-  /* border: 2px solid yellow; */
-  padding: 0;
-  margin: 0;
-}
-.iconss {
-  width: 100px;
-  height: 100px;
-}
-.imgLogo1 {
-  width: 100px;
-  height: 100px;
+.skill-icon img {
+  width: 2rem;
 }
 
-/* Media Query for Mobile Devices */
-@media (min-width: 320px) and (max-width: 767px) {
-  .headingContainer1 {
-    display: flex;
-    width: 70%;
-    /* margin: auto; */
-    padding: 10px 0 0 0;
+.mongoDB {
+  width: 0.9rem;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+/* -------------- Media Queries for Medium Devices-------- */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
   }
-  .heading1 {
-    font-size: 20px;
+
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
   }
-  .orangeDash1 {
-    width: 60px;
-  }
-  .skillsContainer1 {
-    width: 96%;
-  }
-  .frontendBackend1 {
-    gap: 15px;
-  }
-  .skills1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-  }
-  .iconss {
-    width: 50px;
-    height: 50px;
-  }
-  .imgLogo1 {
-    width: 50px;
-    height: 50px;
+
+  .experience__content {
+    padding: 1rem;
+    row-gap: 2.2rem;
+    column-gap: 3.5rem;
   }
 }
 
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .headingContainer1 {
-    display: flex;
-    width: 40%;
-    margin: auto;
-    padding: 30px 0 0 0;
-  }
-  /* .heading {
-        font-size: 18px;
-      } */
-  .orangeDash1 {
-    width: 70px;
-  }
+/* -------------- Media Queries for Medium Devices-------- */
 
-  .frontendBackend1 {
-    padding: 20px;
-    gap: 10px;
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
   }
-  .skillsContainer1 {
+  .experience__content {
     width: 90%;
-  }
-
-  .iconss {
-    width: 95px;
-    height: 95px;
-  }
-  .imgLogo1 {
-    width: 95px;
-    height: 95px;
+    row-gap: 2rem;
+    column-gap: 7rem;
   }
 }
 
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .headingContainer1 {
-    width: 30%;
+/* -------------- Media Queries for Small Devices-------- */
+
+@media screen and (max-width: 700px) {
+  .experience__container {
+    gap: 1rem;
   }
-  .frontendBackend1 {
-    padding: 10px;
-    gap: 30px;
+
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .experience__content {
+    padding: 1rem;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    font-size: 10px;
   }
 }

@@ -1,36 +1,59 @@
 import React from "react";
-import styles from "./About.module.css";
+import "./about.css";
+import ME from "../../assets/Rahul_Dudka.png";
+import { FaAward } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
+import { FaProjectDiagram } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div id="about" className="about section">
-      <div id={styles.aboutContainer} className="nav-link about">
-        {/* Heading */}
-        <div className={styles.headingContainer}>
-          <span className={styles.orangeDash}></span>
-          <h2 className={`${styles.heading} about`}>About</h2>
-          <span className={styles.orangeDash}></span>
+    <section id="about" className="about section">
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="mypic" className="home-img" />
+          </div>
         </div>
 
-        {/* About me */}
+        <div className="about__content">
+          <div className="about__cards">
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Certification</h5>
+              <small>MERN Stack Course</small>
+            </article>
 
-        <div id="user-detail-intro" className={styles.aboutme}>
-          <h3> Hello! my name is Rahul, 👋 a Full stack web developer. </h3>
-          <p>
-            🔸Worked on different projects as leader and co-leader. 🔸
-            <br />
-            🔸 Keen to find a challenging position within an ambitious
-            company.🔸
-            <br />
-            🔸 Interested in learning and absorbing new tech in the growing
-            world.🔸 <br />
-            🔸Innovative, result-driven Web Developer with sound knowledge in
-            JavaScript and React in the Frontend. 🔸
-            <br />
+            <article className="about__card">
+              <FaGraduationCap className="about__icon" />
+              <h5>Education</h5>
+              <small>BE Mechanical</small>
+            </article>
+
+            <article className="about__card">
+              <FaProjectDiagram className="about__icon" />
+              <h5>Projects</h5>
+              <small>6+ Completed </small>
+            </article>
+          </div>
+
+          <p id="user-detail-intro">
+            An analytical and detail-oriented Full Stack Web Developer. Capable
+            of writing production-ready code using ReactJS, Redux, and CSS on
+            the frontend, NodeJS, and Express on the backend to build a
+            single-page application. Passionate about coding and a team player
+            who is proficient in working with interdisciplinary teams and
+            executing goal-oriented projects.
           </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

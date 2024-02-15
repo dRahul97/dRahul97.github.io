@@ -1,122 +1,124 @@
-import {
-  Box,
-  Flex,
-  HStack,
-  IconButton,
-  useDisclosure,
-  Stack,
-} from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import style from "../Navbar/Navbar.module.css";
-import resume from "../resume/Rahul-Dudka-Resume.pdf";
+import React from "react";
+import "./navbar.css";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { RiMedalFill } from "react-icons/ri";
+import { SiGmail } from "react-icons/si";
+import { FaProjectDiagram } from "react-icons/fa";
+import { BiCalendar } from "react-icons/bi";
+import { BsFillCloudDownloadFill } from "react-icons/bs";
+import { useState } from "react";
+import Resume from "../../assets/Rahul-Dudka-Resume.pdf";
 
-export default function Navbar() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+const Navbar = () => {
+  const [activeNav, setActiveNav] = useState("#");
 
   const handleResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view?usp=sharing"
+      "https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view?usp=sharing",
+      "_blank"
     );
   };
   return (
-    <>
-      <Box
-        zIndex="999"
-        id="nav-menu"
-        position="fixed"
-        width="85%"
-        margin={"auto"}
-        pt={9}
-      >
-        <Flex
-          h={16}
-          alignItems={"right"}
-          justifyContent={"right"}
-          position="relative"
-        >
-          <IconButton
-            size={"md"}
-            variant={"ghost"}
-            color="#fff"
-            icon={
-              isOpen ? (
-                <CloseIcon w={5} h={5} />
-              ) : (
-                <HamburgerIcon w={12} h={16} />
-              )
-            }
-            aria-label={"Open Menu"}
-            display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
-            position={"relative"}
-            left="30px"
-            zIndex={444444}
-          />
-          <HStack spacing={8} alignItems={"center"}>
-            <HStack
-              as={"nav"}
-              spacing={9}
-              display={{ base: "none", md: "flex" }}
-              color="#fff"
-              fontSize="17px"
-            >
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
-              {/* <button id="resume-button-1" onClick={handleResume}>
-                <a
-                  id="resume-link-1"
-                  className={`${style.resumes} nav-link resume`}
-                  href={resume}
-                  target="_blank"
-                  download="Rahul-Dudka-Resume"
-                >
-                  Resume <i className="fa">&#xf019;</i>
-                </a>
-              </button> */}
-              <button id="resume-button-1" onClick={handleResume}>
-                <a
-                  id="resume-link-1"
-                  href={resume}
-                  download="Rahul-Dudka-Resume"
-                  target="_blank"
-                  className={`${style.resumes} nav-link resume`}
-                  rel="noreferrer"
-                >
-                  Resume <i className="fa">&#xf019;</i>
-                </a>
-              </button>
-            </HStack>
-          </HStack>
-        </Flex>
-
-        {isOpen ? (
-          <Flex
-            position="relative"
-            left="230px"
-            border={"2px solid orange"}
-            bg={"#171717"}
-            justifyContent={"right"}
-            alignItems={"center"}
-            padding="10px 34px"
-            width={"40%"}
-            height="auto"
-            // borderRadius={"20px"}
+    <nav id="nav-menu">
+      <div className="icon">
+        <div className="tooltip">Home</div>
+        <span>
+          <a
+            href="#home"
+            onClick={() => setActiveNav("#home")}
+            className="nav-link home "
           >
-            <Box pb={1} display={{ md: "none" }}>
-              <Stack as={"nav"} spacing={4} color="#fff">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-              </Stack>
-            </Box>
-          </Flex>
-        ) : null}
-      </Box>
-    </>
+            <AiOutlineHome className="nav-icons" />
+          </a>
+        </span>
+      </div>
+
+      <div className="icon">
+        <div className="tooltip">About</div>
+        <span>
+          <a
+            href="#about"
+            onClick={() => setActiveNav("#about")}
+            className="nav-link about"
+          >
+            <AiOutlineUser className="nav-icons" />
+          </a>
+        </span>
+      </div>
+
+      <div className="icon stats-icon">
+        <div className="tooltip">Skills</div>
+        <span>
+          <a
+            href="#skills"
+            onClick={() => setActiveNav("#skills")}
+            className="nav-link skills"
+          >
+            <RiMedalFill className="nav-icons" />
+          </a>
+        </span>
+      </div>
+
+      <div className="icon">
+        <div className="tooltip">Projects</div>
+        <span>
+          <a
+            href="#projects"
+            onClick={() => setActiveNav("#projects")}
+            className="nav-link projects"
+          >
+            <FaProjectDiagram className="nav-icons" />
+          </a>
+        </span>
+      </div>
+
+      <div className="icon stats-icon">
+        <div className="tooltip">Stats</div>
+        <span>
+          <a
+            href="#stats"
+            onClick={() => setActiveNav("#stats")}
+            className="nav-link stats"
+          >
+            <BiCalendar className="nav-icons" />
+          </a>
+        </span>
+      </div>
+
+      <div className="icon">
+        <div className="tooltip">Contact</div>
+        <span>
+          <a
+            href="#contact"
+            onClick={() => setActiveNav("#contact")}
+            className="nav-link contact"
+          >
+            <SiGmail className="nav-icons" />
+          </a>
+        </span>
+      </div>
+
+      <div className="icon">
+        <div className="tooltip">Resume</div>
+        <span>
+          <button id="resume-button-1" onClick={handleResume}>
+            <a
+              id="resume-link-1"
+              href={Resume}
+              download="Rahul-Dudka-Resume"
+              target="_blank"
+              className="nav-link resume icon"
+              rel="noreferrer"
+            >
+              <div className="tooltip">Resume</div>
+              <BsFillCloudDownloadFill className="nav-icons" />
+            </a>
+          </button>
+        </span>
+      </div>
+    </nav>
   );
-}
+};
+
+export default Navbar;
