@@ -15,9 +15,9 @@ const Contact = () => {
 
     emailjs.sendForm(
       "service_3734n0f",
-      "portfolio_1template",
+      "rd_portfolio_Template",
       form.current,
-      "l6cIlK8OhPONSDTA8"
+      "hcS4N9swjrlRJJzIw"
     );
     e.target.reset();
   };
